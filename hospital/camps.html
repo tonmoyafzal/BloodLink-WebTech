@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donation Camps | BloodLink</title>
+<link rel="stylesheet" href="css/hospital.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="stock.html">Blood Stock</a> | <a href="camps.html">Donation Camps</a> | <a href="verify.html">Verify Donations</a> | <a href="profile.html">Hospital Profile</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Donation Camps</h2>
+<h3>Add a Camp</h3>
+<form action="#" method="post">
+<p><label for="title">Camp title</label><br><input type="text" id="title" name="title" required></p>
+<p><label for="camp_date">Date</label><br><input type="date" id="camp_date" name="camp_date" required></p>
+<p><label for="location">Location</label><br><input type="text" id="location" name="location" required></p>
+<p><label for="details">Details</label><br><textarea id="details" name="details" rows="3" cols="40"></textarea></p>
+<button type="submit">Publish Camp</button>
+</form>
+<h3>My Camps</h3>
+<table border="1"><thead><tr><th>Title</th><th>Date</th><th>Location</th><th>Actions</th></tr></thead><tbody><tr><td>[Camp title]</td><td>[date]</td><td>[location]</td><td><button type="button">Edit</button> <button type="button">Delete</button></td></tr><tr><td>[Camp title]</td><td>[date]</td><td>[location]</td><td><button type="button">Edit</button> <button type="button">Delete</button></td></tr></tbody></table>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/hospital.js"></script>
+</body>
+</html>
