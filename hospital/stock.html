@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Stock | BloodLink</title>
+<link rel="stylesheet" href="css/hospital.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="stock.html">Blood Stock</a> | <a href="camps.html">Donation Camps</a> | <a href="verify.html">Verify Donations</a> | <a href="profile.html">Hospital Profile</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Blood Stock</h2>
+<form action="#" method="post">
+<p><label for="blood_group">Blood group</label><br><select id="blood_group" name="blood_group"><option value="A+">A+</option><option value="A-">A-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option><option value="AB+">AB+</option><option value="AB-">AB-</option></select></p>
+<p><label for="bags">Bags in stock</label><br><input type="number" id="bags" name="bags" min="0"></p>
+<button type="submit">Update Stock</button>
+</form>
+<table border="1"><thead><tr><th>Blood group</th><th>Bags in stock</th><th>Status</th><th>Last updated</th></tr></thead><tbody><tr><td>A+</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>A-</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>B+</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>B-</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>O+</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>O-</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>AB+</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr><tr><td>AB-</td><td>[0]</td><td>[Normal / Low]</td><td>[date]</td></tr></tbody></table>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/hospital.js"></script>
+</body>
+</html>
