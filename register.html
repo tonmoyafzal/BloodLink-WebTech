@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register | BloodLink</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="index.html">Home</a> | <a href="camps.html">Donation Camps</a> | <a href="login.html">Login</a> | <a href="register.html">Register</a></nav>
+</header>
+<main>
+<h2>Register</h2>
+<form action="#" method="post">
+<p><label for="role">Register as</label><br><select id="role" name="role"><option value="donor">Donor</option><option value="patient">Patient / Requester</option><option value="hospital">Hospital / Blood Bank</option></select></p>
+<p><label for="full_name">Full name / Hospital name</label><br><input type="text" id="full_name" name="full_name" required></p>
+<p><label for="email">Email</label><br><input type="email" id="email" name="email" required></p>
+<p><label for="phone">Phone number</label><br><input type="tel" id="phone" name="phone" required></p>
+<p><label for="area">Area / City</label><br><input type="text" id="area" name="area" required></p>
+<fieldset><legend>Donor only</legend>
+<p><label for="blood_group">Blood group</label><br><select id="blood_group" name="blood_group"><option value="">Select blood group</option><option value="A+">A+</option><option value="A-">A-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option><option value="AB+">AB+</option><option value="AB-">AB-</option></select></p>
+<p><label for="last_donation_date">Last donation date</label><br><input type="date" id="last_donation_date" name="last_donation_date" ></p>
+</fieldset>
+<p><label for="password">Password</label><br><input type="password" id="password" name="password" required></p>
+<p><label for="confirm_password">Confirm password</label><br><input type="password" id="confirm_password" name="confirm_password" required></p>
+<button type="submit">Create Account</button>
+</form>
+<p>Already registered? <a href="login.html">Login</a></p>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
