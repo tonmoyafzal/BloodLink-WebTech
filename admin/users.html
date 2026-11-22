@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Users | BloodLink</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="dashboard.html">Dashboard</a> | <a href="users.html">Manage Users</a> | <a href="requests.html">Blood Requests</a> | <a href="reports.html">Reports</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Manage Users</h2>
+<form action="#" method="get">
+<p><label for="role">Role</label><br><select id="role" name="role"><option value="">All roles</option><option value="donor">Donor</option><option value="patient">Patient</option><option value="hospital">Hospital</option></select></p>
+<p><label for="status">Status</label><br><select id="status" name="status"><option value="">All statuses</option><option value="pending">Pending</option><option value="active">Active</option><option value="suspended">Suspended</option></select></p>
+<button type="submit">Filter</button>
+</form>
+<table border="1"><thead><tr><th>ID</th><th>Name</th><th>Email</th><th>Role</th><th>Status</th><th>Actions</th></tr></thead><tbody><tr><td>1</td><td>[Name]</td><td>[email]</td><td>Donor</td><td>Pending</td><td><button type="button">Approve</button> <button type="button">Suspend</button> <button type="button">Delete</button></td></tr><tr><td>2</td><td>[Name]</td><td>[email]</td><td>Hospital</td><td>Active</td><td><button type="button">Approve</button> <button type="button">Suspend</button> <button type="button">Delete</button></td></tr><tr><td>3</td><td>[Name]</td><td>[email]</td><td>Patient</td><td>Suspended</td><td><button type="button">Approve</button> <button type="button">Suspend</button> <button type="button">Delete</button></td></tr></tbody></table>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/admin.js"></script>
+</body>
+</html>

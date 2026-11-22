@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reports | BloodLink</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="dashboard.html">Dashboard</a> | <a href="users.html">Manage Users</a> | <a href="requests.html">Blood Requests</a> | <a href="reports.html">Reports</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Reports</h2>
+<form action="#" method="get">
+<p><label for="from_date">From</label><br><input type="date" id="from_date" name="from_date" ></p><p><label for="to_date">To</label><br><input type="date" id="to_date" name="to_date" ></p><button type="submit">Generate Report</button>
+</form>
+<h3>Donors by Blood Group</h3>
+<table border="1"><thead><tr><th>Blood group</th><th>Donors</th><th>Requests</th><th>Fulfilled</th></tr></thead><tbody><tr><td>A+</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>A-</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>B+</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>B-</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>O+</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>O-</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>AB+</td><td>[0]</td><td>[0]</td><td>[0]</td></tr><tr><td>AB-</td><td>[0]</td><td>[0]</td><td>[0]</td></tr></tbody></table>
+<h3>Requests by Area</h3>
+<table border="1"><thead><tr><th>Area</th><th>Requests</th><th>Fulfilled</th></tr></thead><tbody><tr><td>[Area]</td><td>[0]</td><td>[0]</td></tr><tr><td>[Area]</td><td>[0]</td><td>[0]</td></tr><tr><td>[Area]</td><td>[0]</td><td>[0]</td></tr></tbody></table>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard | BloodLink</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="dashboard.html">Dashboard</a> | <a href="users.html">Manage Users</a> | <a href="requests.html">Blood Requests</a> | <a href="reports.html">Reports</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Admin Dashboard</h2>
+<section><h3>Overview</h3>
+<ul><li>Total users: [number]</li><li>Pending user approvals: [number]</li><li>Pending blood requests: [number]</li><li>Fulfilled requests: [number]</li></ul></section>
+<section><h3>Latest Pending Requests</h3>
+<table border="1"><thead><tr><th>Blood group</th><th>Requester</th><th>Hospital</th><th>Urgency</th><th>Action</th></tr></thead><tbody><tr><td>O-</td><td>[Name]</td><td>[Hospital]</td><td>Urgent</td><td><a href="requests.html">Review</a></td></tr><tr><td>B+</td><td>[Name]</td><td>[Hospital]</td><td>Within 3 days</td><td><a href="requests.html">Review</a></td></tr></tbody></table></section>
+<p><a href="users.html">Manage users</a> | <a href="requests.html">Review requests</a> | <a href="reports.html">View reports</a></p>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/admin.js"></script>
+</body>
+</html>
