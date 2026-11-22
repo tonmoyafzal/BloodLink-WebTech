@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donor Responses | BloodLink</title>
+<link rel="stylesheet" href="css/patient.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="post-request.html">Post Request</a> | <a href="search-donors.html">Search Donors</a> | <a href="my-requests.html">My Requests</a> | <a href="responses.html">Responses</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Donor Responses</h2>
+<form action="#" method="get">
+<p><label for="request_id">Request</label><br><select id="request_id" name="request_id"><option value="101">#101 - B+ - [Hospital]</option><option value="102">#102 - A+ - [Hospital]</option></select></p>
+<button type="submit">Show Responses</button>
+</form>
+<table border="1"><thead><tr><th>Donor</th><th>Blood group</th><th>Area</th><th>Responded on</th><th>Contact</th></tr></thead><tbody><tr><td>[Donor name]</td><td>[group]</td><td>[Area]</td><td>[date]</td><td><a href="tel:+8801XXXXXXXXX">Call</a></td></tr><tr><td>[Donor name]</td><td>[group]</td><td>[Area]</td><td>[date]</td><td><a href="tel:+8801XXXXXXXXX">Call</a></td></tr></tbody></table>
+<form action="#" method="post">
+<input type="hidden" name="request_id" value="102">
+<button type="submit">Mark Request as Fulfilled</button>
+</form>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/patient.js"></script>
+</body>
+</html>

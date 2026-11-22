@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Donors | BloodLink</title>
+<link rel="stylesheet" href="css/patient.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="post-request.html">Post Request</a> | <a href="search-donors.html">Search Donors</a> | <a href="my-requests.html">My Requests</a> | <a href="responses.html">Responses</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Search Donors</h2>
+<form action="#" method="get">
+<p><label for="blood_group">Blood group</label><br><select id="blood_group" name="blood_group"><option value="">Select blood group</option><option value="A+">A+</option><option value="A-">A-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option><option value="AB+">AB+</option><option value="AB-">AB-</option></select></p>
+<p><label for="area">Area / City</label><br><input type="text" id="area" name="area" ></p>
+<button type="submit">Search</button>
+</form>
+<h3>Available Donors</h3>
+<table border="1"><thead><tr><th>Name</th><th>Blood group</th><th>Area</th><th>Last donation</th><th>Contact</th></tr></thead><tbody><tr><td>[Donor name]</td><td>O+</td><td>[Area]</td><td>[date]</td><td><a href="tel:+8801XXXXXXXXX">Call</a></td></tr><tr><td>[Donor name]</td><td>O+</td><td>[Area]</td><td>[date]</td><td><a href="tel:+8801XXXXXXXXX">Call</a></td></tr><tr><td>[Donor name]</td><td>O+</td><td>[Area]</td><td>[date]</td><td><a href="tel:+8801XXXXXXXXX">Call</a></td></tr></tbody></table>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/patient.js"></script>
+</body>
+</html>

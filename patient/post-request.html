@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post a Blood Request | BloodLink</title>
+<link rel="stylesheet" href="css/patient.css">
+</head>
+<body>
+<header>
+<h1>BloodLink</h1>
+<nav><a href="post-request.html">Post Request</a> | <a href="search-donors.html">Search Donors</a> | <a href="my-requests.html">My Requests</a> | <a href="responses.html">Responses</a> | <a href="../login.html">Logout</a></nav>
+</header>
+<main>
+<h2>Post a Blood Request</h2>
+<form action="#" method="post">
+<p><label for="patient_name">Patient name</label><br><input type="text" id="patient_name" name="patient_name" required></p>
+<p><label for="blood_group">Blood group needed</label><br><select id="blood_group" name="blood_group"><option value="A+">A+</option><option value="A-">A-</option><option value="B+">B+</option><option value="B-">B-</option><option value="O+">O+</option><option value="O-">O-</option><option value="AB+">AB+</option><option value="AB-">AB-</option></select></p>
+<p><label for="bags">Bags needed</label><br><input type="number" id="bags" name="bags" min="1" value="1"></p>
+<p><label for="urgency">Urgency</label><br><select id="urgency" name="urgency"><option value="urgent">Urgent (today)</option><option value="3days">Within 3 days</option><option value="planned">Planned</option></select></p>
+<p><label for="hospital">Hospital</label><br><input type="text" id="hospital" name="hospital" required></p>
+<p><label for="area">Area / City</label><br><input type="text" id="area" name="area" required></p>
+<p><label for="contact">Contact number</label><br><input type="tel" id="contact" name="contact" required></p>
+<p><label for="notes">Additional notes</label><br><textarea id="notes" name="notes" rows="4" cols="40"></textarea></p>
+<button type="submit">Submit Request</button>
+</form>
+<p>Your request will be published after admin approval.</p>
+</main>
+<footer>
+<p>&copy; 2026 BloodLink - Blood Donor Finder</p>
+</footer>
+<script src="js/patient.js"></script>
+</body>
+</html>
