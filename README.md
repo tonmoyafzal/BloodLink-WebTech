@@ -2,7 +2,7 @@
 
 Course Project: Blood Donor Finder (BloodLink)  
 Institution: American International University-Bangladesh (AIUB)  
-Technologies:** HTML5, CSS3, Vanilla JavaScript (ES6+), LocalStorage Database  
+Technologies:HTML5, CSS3, Vanilla JavaScript (ES6+), LocalStorage Database  
 
 ---
  🩸 Project Overview
