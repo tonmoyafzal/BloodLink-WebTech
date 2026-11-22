@@ -1,12 +1,11 @@
-# BloodLink - Blood Donor Finder Web Application
+ BloodLink - Blood Donor Finder Web Application
 
 **Course Project:** Blood Donor Finder (BloodLink)  
 **Institution:** American International University-Bangladesh (AIUB)  
 **Technologies:** HTML5, CSS3, Vanilla JavaScript (ES6+), LocalStorage Database  
 
 ---
-
-## 🩸 Project Overview
+ 🩸 Project Overview
 
 BloodLink is a web-based platform that connects blood donors, patients, and partner hospitals/blood banks in one place. In medical emergencies, finding compatible blood donors quickly is a matter of life and death. BloodLink solves this by offering:
 - **Role-Based Access Control (RBAC)** across 4 user roles: **Admin**, **Donor**, **Patient / Requester**, and **Hospital / Blood Bank**.
@@ -17,8 +16,7 @@ BloodLink is a web-based platform that connects blood donors, patients, and part
 - **Robust Client-Side Validation & Error Handling**: Comprehensive validation on all forms, specifically invalid email detection, phone number validation, password strength/matching, positive quantity checks, and past/future date constraints.
 
 ---
-
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```text
 BloodLink/
@@ -63,26 +61,7 @@ BloodLink/
     └── responses.html                            # View Responding Donors with Click-to-Call
 ```
 
----
-
-## 🔑 Demo Accounts & Credentials
-
-The system initializes with pre-populated demo accounts for immediate testing. You can use the **Quick Demo Login buttons** on `login.html` or the **top Demo Switch bar** on any page to switch roles instantly:
-
-| Role | Name | Email | Password | Phone | Area / Details |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Admin** | MD Woasi Afzal | `admin@bloodlink.org` | `admin` *(or password123)* | 01711000001 | Dhaka |
-| **Donor** | MD Sabit Rahman | `sabit@bloodlink.org` | `donor` *(or password123)* | 01811223344 | Dhaka (O+, Available) |
-| **Donor** | Riftia Bin Rafi | `rafi@bloodlink.org` | `donor` *(or password123)* | 01911223344 | Chattogram (A+, Available) |
-| **Donor** | Meherab Hossain | `meherab@bloodlink.org` | `donor` *(or password123)* | 01611223344 | Narayanganj (B+, Available) |
-| **Patient** | Rahat Khan | `patient@bloodlink.org` | `patient` *(or password123)* | 01722334455 | Dhaka |
-| **Patient** | Nusrat Jahan | `nusrat@bloodlink.org` | `patient` *(or password123)* | 01822334455 | Chattogram |
-| **Hospital** | Dhaka Medical College | `hospital@bloodlink.org` | `hospital` *(or password123)* | 01733445566 | Secretariat Road, Dhaka |
-| **Hospital** | CMCH | `cmch@bloodlink.org` | `hospital` *(or password123)* | 01833445566 | Chattogram |
-
----
-
-## 🛡️ Input Validation & Error Handling Implementation
+🛡️ Input Validation & Error Handling Implementation
 
 All user input is checked with client-side validation logic and real-time visual feedback:
 
@@ -114,8 +93,7 @@ All user input is checked with client-side validation logic and real-time visual
    - Pending registrations display: *"Your account registration is currently pending administrator approval."*
 
 ---
-
-## 🚀 How to Run
+ 🚀 How to Run
 
 1. Open `BloodLink/index.html` or `BloodLink/login.html` directly in any modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari).
 2. No Node.js, server, or build step is required — the system runs on pure HTML5, CSS3, and Vanilla JavaScript with `localStorage`.
